@@ -1,0 +1,77 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%; } }
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%; } }
+@media(max-width: 37.5em) {
+  html {
+    font-size: 40%;
+  }
+  }
+  body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-size: 3rem;
+    padding-top: 12rem;
+    background-image: url('nature.jpg');
+  }
+  .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 10rem 0;
+    /* background-image: linear-gradient(to right bottom, #dcfaeb, #aee6cb); */
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #5e4a41;
+  }
+  .search{
+    display: flex;
+    align-items: center;
+    width: 35%;
+  }
+ .search-bar{
+  padding: .7rem 1.1rem;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, .2);
+  color: #fff;
+  width: 100%;
+}
+ .temp{
+   margin-top: 2rem;
+ }
+ .city{
+   margin-top: 2rem;
+ }
+.search-icon{
+  font-size: 1.6rem;
+  margin: .8rem;
+  border-radius: 50%;
+  padding: .5rem;
+  border: none;
+  background-color: rgba(255, 255, 255, .2);
+  color: #5e4a41;
+  cursor: pointer;
+}
+.weather{
+  text-align: center;
+}
